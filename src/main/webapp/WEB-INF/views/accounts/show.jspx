@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_spt_trainning_domain_Account" object="${account}" path="/accounts" z="yHlGRv+Ik9Fkc6fAPoby2NS0nQM=">
+        <field:display field="createdBy" id="s_com_spt_trainning_domain_Account_createdBy" object="${account}" z="IqpuzFPy6czXA6nm55Sze59MFYA="/>
+        <field:display field="updatedBy" id="s_com_spt_trainning_domain_Account_updatedBy" object="${account}" z="TsUhIVqC0gzbZDqbjXyNYj0akAo="/>
+        <field:display field="status" id="s_com_spt_trainning_domain_Account_status" object="${account}" z="HJ8pyRB7a3rKfIXGgZPRPYJ2SjQ="/>
+        <field:display date="true" dateTimePattern="${account_createddate_date_format}" field="createdDate" id="s_com_spt_trainning_domain_Account_createdDate" object="${account}" z="4/Ll8hNvcjuOSzSuyfT5mtNQb2o="/>
+        <field:display date="true" dateTimePattern="${account_updateddate_date_format}" field="updatedDate" id="s_com_spt_trainning_domain_Account_updatedDate" object="${account}" z="TwLpTOtPi0mzWDLjwb84tgGIPPA="/>
+        <field:display field="code" id="s_com_spt_trainning_domain_Account_code" object="${account}" z="DvKISY6bq0nF5IQRtej3C6Bauk8="/>
+        <field:display field="username" id="s_com_spt_trainning_domain_Account_username" object="${account}" z="jyECf2IEH/fKneUWdGEe+/rcdgY="/>
+        <field:display field="password" id="s_com_spt_trainning_domain_Account_password" object="${account}" z="7DBckpDkLVkpPROkO51qzMgsMiU="/>
+        <field:display field="userRole" id="s_com_spt_trainning_domain_Account_userRole" object="${account}" z="AihDvv0TViADHeXeHWEtadF4D0c="/>
+    </page:show>
+</div>

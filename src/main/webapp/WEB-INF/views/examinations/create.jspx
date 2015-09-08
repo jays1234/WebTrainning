@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_spt_trainning_domain_Examination" modelAttribute="examination" path="/examinations" render="${empty dependencies}" z="wDmhU3Ur0/D+W18Rk09zE0O1xZU=">
+        <field:input field="createdBy" id="c_com_spt_trainning_domain_Examination_createdBy" z="zNl5N8bBg2EKk+P2f80038rR19Y="/>
+        <field:input field="updatedBy" id="c_com_spt_trainning_domain_Examination_updatedBy" z="3oM33OdQwhZC9A7BX6bBEZTY7Ho="/>
+        <field:input field="status" id="c_com_spt_trainning_domain_Examination_status" z="eA6gQM0EPz9p+tl1CkiN4zahHNs="/>
+        <field:datetime dateTimePattern="${examination_createddate_date_format}" field="createdDate" id="c_com_spt_trainning_domain_Examination_createdDate" z="XlJtqeE2p36XZRZK5HN2gmd1XaM="/>
+        <field:datetime dateTimePattern="${examination_updateddate_date_format}" field="updatedDate" id="c_com_spt_trainning_domain_Examination_updatedDate" z="i8JivlXjII7ktZqo8eVjHFYvOOc="/>
+        <field:input field="topic" id="c_com_spt_trainning_domain_Examination_topic" z="1L4u3U6EGRC7pECqQjQAaQ6n5yc="/>
+        <field:input field="description" id="c_com_spt_trainning_domain_Examination_description" z="YnX8s0k/VN/TBdqehuujhoN/A/o="/>
+        <field:input field="rate" id="c_com_spt_trainning_domain_Examination_rate" z="vzaSNczFMAR1EexsFYqEFkYbf6c="/>
+        <field:simple field="testCase" id="c_com_spt_trainning_domain_Examination_testCase" messageCode="entity_reference_not_managed" messageCodeAttribute="Examine" z="HKyAeeV/VMWa8Po7CBsm/O7r5/A="/>
+        <field:simple field="score" id="c_com_spt_trainning_domain_Examination_score" messageCode="entity_reference_not_managed" messageCodeAttribute="Score" z="bCNcgqkb5sZdTrpIepra/e1MnTc="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_spt_trainning_domain_Examination" render="${not empty dependencies}" z="8HqQZjZve9BiXIVY6M8XAtw2G4s="/>
+</div>

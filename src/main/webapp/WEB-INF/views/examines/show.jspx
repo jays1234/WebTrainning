@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_spt_trainning_domain_Examine" object="${examine}" path="/examines" z="VcC9wrq6YmAKxNpDk5TAh2AGN24=">
+        <field:display field="createdBy" id="s_com_spt_trainning_domain_Examine_createdBy" object="${examine}" z="E0g1N0dmVOtTZ3pRTBZHy80t9NQ="/>
+        <field:display field="updatedBy" id="s_com_spt_trainning_domain_Examine_updatedBy" object="${examine}" z="j0wq82n57nA8lBY0OnbuYFyKuS0="/>
+        <field:display field="status" id="s_com_spt_trainning_domain_Examine_status" object="${examine}" z="7GXzQ7/LoafQWTveTMSpUELhg4I="/>
+        <field:display date="true" dateTimePattern="${examine_createddate_date_format}" field="createdDate" id="s_com_spt_trainning_domain_Examine_createdDate" object="${examine}" z="l8NzFPP3lqQOQ7WCRz65R7B6Pj0="/>
+        <field:display date="true" dateTimePattern="${examine_updateddate_date_format}" field="updatedDate" id="s_com_spt_trainning_domain_Examine_updatedDate" object="${examine}" z="gLLqTn6xBxGsuTolZT2Nv9H3V/w="/>
+        <field:display field="sequence" id="s_com_spt_trainning_domain_Examine_sequence" object="${examine}" z="WPnUEQEoV0N/epbm3NZxtCkCEGM="/>
+        <field:display field="inputData" id="s_com_spt_trainning_domain_Examine_inputData" object="${examine}" z="By9522EyfxrN9yP9y/97M9t7b4U="/>
+        <field:display field="outputData" id="s_com_spt_trainning_domain_Examine_outputData" object="${examine}" z="ZVjXYN6ayhOd2CtMG4+QJjPgP2Y="/>
+        <field:display field="examination" id="s_com_spt_trainning_domain_Examine_examination" object="${examine}" z="437WYR6w/hD3jQEQAKQXa70zyDI="/>
+    </page:show>
+</div>

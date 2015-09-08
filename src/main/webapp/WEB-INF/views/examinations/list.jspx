@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_spt_trainning_domain_Examination" items="${examinations}" z="1Z2yb9UsmBS8U8/O3FN4g/C8wXc=">
+        <table:table data="${examinations}" id="l_com_spt_trainning_domain_Examination" path="/examinations" z="Njz0MrxREVrhB4BlETWXVTQ88KY=">
+            <table:column id="c_com_spt_trainning_domain_Examination_createdBy" property="createdBy" z="JfNyuYPOSygedd68Axv+A7rfN1g="/>
+            <table:column id="c_com_spt_trainning_domain_Examination_updatedBy" property="updatedBy" z="pCqX9rwzgmMivZ2Do5wZ/OO3TcE="/>
+            <table:column id="c_com_spt_trainning_domain_Examination_status" property="status" z="HlD1x0IGON0pgo23/jZU5Rwnc3c="/>
+            <table:column date="true" dateTimePattern="${examination_createddate_date_format}" id="c_com_spt_trainning_domain_Examination_createdDate" property="createdDate" z="TXzbezu5gzllV7eUbar1vRKOhXc="/>
+            <table:column date="true" dateTimePattern="${examination_updateddate_date_format}" id="c_com_spt_trainning_domain_Examination_updatedDate" property="updatedDate" z="vGNg26ywoUpbQiHzvaubgD+tqiM="/>
+            <table:column id="c_com_spt_trainning_domain_Examination_topic" property="topic" z="LJxuxrVI0FaKphPTPoxZ4a4x55c="/>
+        </table:table>
+    </page:list>
+</div>

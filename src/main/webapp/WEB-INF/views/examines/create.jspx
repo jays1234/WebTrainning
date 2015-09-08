@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_spt_trainning_domain_Examine" modelAttribute="examine" path="/examines" render="${empty dependencies}" z="lAqFz3OAu+dp+PTT3xdXPTQ9Ng4=">
+        <field:input field="createdBy" id="c_com_spt_trainning_domain_Examine_createdBy" z="tlGqvhkfHoGjYgvayv4sR9jISL4="/>
+        <field:input field="updatedBy" id="c_com_spt_trainning_domain_Examine_updatedBy" z="uec2mgrORL/d1b2RSN/ASUIe4cY="/>
+        <field:input field="status" id="c_com_spt_trainning_domain_Examine_status" z="jtfL6QVo/M4ldV5+qiWA/9Ecvzo="/>
+        <field:datetime dateTimePattern="${examine_createddate_date_format}" field="createdDate" id="c_com_spt_trainning_domain_Examine_createdDate" z="kIgn/dyK0f9DC4+yw+3g2XKRwXo="/>
+        <field:datetime dateTimePattern="${examine_updateddate_date_format}" field="updatedDate" id="c_com_spt_trainning_domain_Examine_updatedDate" z="S2zARicE/me3YG1sYLATL91vhZ0="/>
+        <field:input field="sequence" id="c_com_spt_trainning_domain_Examine_sequence" validationMessageCode="field_invalid_integer" z="2sh97gZv82dPiQf2zC2MBemb3oU="/>
+        <field:input field="inputData" id="c_com_spt_trainning_domain_Examine_inputData" z="i12+osmKN+erZR+24G4rdIbflGQ="/>
+        <field:input field="outputData" id="c_com_spt_trainning_domain_Examine_outputData" z="Az+O068oeKBxXZkAI6jC/dPVz3M="/>
+        <field:select field="examination" id="c_com_spt_trainning_domain_Examine_examination" itemValue="id" items="${examinations}" path="/examinations" z="Iqm4nP5+j8jsriuHq4uefH+Z8CU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_spt_trainning_domain_Examine" render="${not empty dependencies}" z="FpnPJBhNDFmwkWODpFJ329AH6jM="/>
+</div>

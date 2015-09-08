@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_spt_trainning_domain_Score" modelAttribute="score" path="/scores" render="${empty dependencies}" z="C2lKq+CFXKyk1dXGxNXXYss2wk4=">
+        <field:input field="createdBy" id="c_com_spt_trainning_domain_Score_createdBy" z="BeLQFPtD650D8xvm/8Z1yStEBEg="/>
+        <field:input field="updatedBy" id="c_com_spt_trainning_domain_Score_updatedBy" z="u0Mp7WyVKYJw37peGNxmsyXcAhA="/>
+        <field:input field="status" id="c_com_spt_trainning_domain_Score_status" z="Yo0dEmZJ5wgMDiTuF5Tjs0vst/o="/>
+        <field:datetime dateTimePattern="${score_createddate_date_format}" field="createdDate" id="c_com_spt_trainning_domain_Score_createdDate" z="AMi1egZAsA1kTEhfpWAHOskJq98="/>
+        <field:datetime dateTimePattern="${score_updateddate_date_format}" field="updatedDate" id="c_com_spt_trainning_domain_Score_updatedDate" z="na/LixFsCsxyQ1DE7HhzGNj4D54="/>
+        <field:select field="account" id="c_com_spt_trainning_domain_Score_account" itemValue="id" items="${accounts}" path="/accounts" z="b2+V6F9l5ickQUbo8IVJ+HtSBCs="/>
+        <field:select field="examination" id="c_com_spt_trainning_domain_Score_examination" itemValue="id" items="${examinations}" path="/examinations" z="JGWK8/2uO1lQvecp/fCymHGTqE4="/>
+        <field:input field="score" id="c_com_spt_trainning_domain_Score_score" z="4J5McHt+kVk9HJ3A0N0WkM08rcc="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_spt_trainning_domain_Score" render="${not empty dependencies}" z="Vf1x72ZeYRWtd99NkZNn2L78kR4="/>
+</div>

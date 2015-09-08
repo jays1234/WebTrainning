@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_spt_trainning_domain_Score" items="${scores}" z="w5a0i2/5jv+wWziRRB75mspOlhY=">
+        <table:table data="${scores}" id="l_com_spt_trainning_domain_Score" path="/scores" z="jvIlLGW9QAB1hHMcwQ5Pbycqh3o=">
+            <table:column id="c_com_spt_trainning_domain_Score_createdBy" property="createdBy" z="ar5DkVGLkAgwI0qHUV3Au/BJNoQ="/>
+            <table:column id="c_com_spt_trainning_domain_Score_updatedBy" property="updatedBy" z="DxgHmndcIIRIIuNcpocc+KyZLQo="/>
+            <table:column id="c_com_spt_trainning_domain_Score_status" property="status" z="ENOBzas0a4wmLNWgAIVdb4GYsHU="/>
+            <table:column date="true" dateTimePattern="${score_createddate_date_format}" id="c_com_spt_trainning_domain_Score_createdDate" property="createdDate" z="rk58OYflJK+PMSphv2Ia5qflh84="/>
+            <table:column date="true" dateTimePattern="${score_updateddate_date_format}" id="c_com_spt_trainning_domain_Score_updatedDate" property="updatedDate" z="Njp1ClQx4C/QBo+8jAI90QEfdsQ="/>
+            <table:column id="c_com_spt_trainning_domain_Score_account" property="account" z="ka51gsgGPzTwKWqDLMm290j8p2c="/>
+        </table:table>
+    </page:list>
+</div>
